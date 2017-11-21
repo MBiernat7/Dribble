@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dribble</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="navigation">
+                <h1 class="logo__container"><a class="logo" href="#"><img src="images/logo.png" alt="logo"></a></h1>
+                <ul class="nav__menu">
+                    <li class="menu__item"><a class="link" href="#">Featured</a></li>
+                    <li class="menu__item">
+                        <a class="link" href="#">Shows</a>
+                        <ul class="nav__secondary__menu">
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">The daily show</a>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">The colbert report</a>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">south park</a>
+                                <div class="online--now"></div>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">Tosh.o</a>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">workaholics</a>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">key & peele</a>
+                                <div class="unavailable"></div>
+                            </li>
+                            <li class="menu__secondary__item">
+                                <a class="link" href="#">more...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a class="link" href="#">stand - up</a></li>
+                    <li class="menu__item"><a class="link" href="#">cc roast</a></li>
+                    <li class="menu__item"><a class="link" href="#">social</a></li>
+                    <li class="menu__item"><a class="link" href="#">tickets</a></li>
+                </ul>
+            </header>
+
+            <section class="control__panel">
+                <div class="left__column">
+                    <form>
+                        <input class="search--input" type="text" name="search">
+                    </form>
+                </div>
+                <div class="right__column">
+                    <a class="avatar" href="#"><img src="images/avatar.png" alt="avatar"></a>
+                    <a class="nickname" href="#">Alejandro</a>
+                    <a class="notification" href="#"><img src="images/notification.jpg" alt="notification"></a>
+                    <a class="collection" href="#"><img src="images/collections.jpg" alt="collections"></a>
+                </div> 
+            </section>
+
+            <section class="showcase">
+                <div class="container__showcase">
+                    <form>
+                        <button class="trending">Trending now</button>
+                    </form>
+                    <a class="triangle__right__container" href="#"><div class="triangle__right"></div></a>
+                    <a class="empty__circle__container" href="#"><div class="empty__circle"></div></a>
+                    <h2 class="showcase__video__title">stephen colbert</h2>
+                    <p class="showcase__video__description">Mulling a run for the Presidency</p>
+                    <div class="triangle__up"></div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="container__gallery">
+                    <div class="box">
+                        <img class="gallery__image" src="images/kevin.jpg" alt="gallery1">
+                        <h3 class="name">Kevin Hart</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/joe.jpg" alt="gallery2">
+                        <h3 class="name">Joe Rogan</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/nick.jpg" alt="gallery3">
+                        <h3 class="name">Nick Kroll</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/patton.jpg" alt="gallery4">
+                        <h3 class="name">Patton Oswalt</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/amy.jpg" alt="gallery5">
+                        <h3 class="name">Amy Schumer</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/neal.jpg" alt="gallery6">
+                        <h3 class="name">Neal Brennan</h3>
+                        <div class="overlay__new">
+                            <p class="overlay__new__p">New Videos</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/tig.jpg" alt="gallery7">
+                        <h3 class="name">Tig Notaro</h3>
+                        <div class="overlay__number">
+                            <p class="overlay__number__p">12 videos</p>
+                            <div class="empty__circle"></div>
+                            <div class="cross"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/hannibal.jpg" alt="gallery8">
+                        <h3 class="name">Hannibal Buress</h3>
+                    </div>
+                    <div class="box">
+                        <img class="gallery__image" src="images/louis.jpg" alt="gallery9">
+                        <h3 class="name">Louis C.K</h3>
+                    </div>
+                </div>
+                <div class="sort__panel">
+                    <div class="sort__panel__container">
+                        <form class="sort__panel__buttons">
+                            <button class="hamburger"></button>
+                            <button class="hamburger__dashed"></button>
+                            <p class="sort__panel__p">sorted by popularity</p>
+                            <div class="triangle"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="commentary">
+                <div class="move__back">
+                    <p> <i class="arrow left"></i></p>
+                    <p class="move__back__p">Reply thread</p>
+                </div>
+                <div class="video__box__container">
+                    <div class="video__box">
+                        <p class="video__box__title">the daily show</p>
+                        <img class="video__box__image"src="images/jon.jpg" alt="jon">
+                        <span class="green--line"></span><span class="red--line"></span>
+                        <p class="video__box__description">6TH February 2013</p>
+                    </div>
+                </div>
+                <div class="commentary__section">
+                    <article class="article__1">
+                        <p class="article__comment light--gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </article>
+                    <article class="article__2">
+                        <h3 class="comment__author">Scott Burgess</h3>
+                        <p class="article__comment gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </article>  
+                    <article class="article__3">
+                        <h3 class="comment__author">Oksana Frewer</h3>
+                        <p class="article__comment white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </article>
+                    <article class="your__comment">
+                        <p class="your__comment__p"><span class="color--text">Replying to</span> Oksana</p>
+                        <input class="your__comment__input" type="text" placeholder="Start Typing...">
+                    </article>    
+                    <div class="triangle__up__commentary"></div>
+                </div>    
+            </aside>
+        </div>
+    </body>
+</html>
